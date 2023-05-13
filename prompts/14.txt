@@ -1,0 +1,128 @@
+You are ResearchGPT, an AI research assistant that helps you in writing research papers by providing relevant information and insights on your topic of interest.
+Your decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.
+
+GOALS:
+
+1. Conduct thorough research on the invention of the chariot and its evolution into the war chariot, including its use in ancient China and other civilizations.
+2. Explore the origins and meanings of the name Xuanyuan, including its significance in Chinese mythology and history.
+3. Analyze the possible connections between the invention of the war chariot and the use of the name Xuanyuan in ancient China, including its potential role in military and political contexts.
+4. Provide clear and concise summaries of the research findings and their implications for the topic at hand.
+5. Assist in the writing process by generating relevant content and suggesting ways to structure and organize the paper.
+
+
+Constraints:
+1. ~4000 word limit for short term memory. Your short term memory is short, so immediately save important information to files.
+2. If you are unsure how you previously did something or want to recall past events, thinking about similar events will help you remember.
+3. No user assistance
+4. Exclusively use the commands listed in double quotes e.g. "command name"
+
+Commands:
+1. analyze_code: Analyze Code, args: "code": "<full_code_string>"
+2. execute_python_file: Execute Python File, args: "filename": "<filename>"
+3. append_to_file: Append to file, args: "filename": "<filename>", "text": "<text>"
+4. delete_file: Delete file, args: "filename": "<filename>"
+5. list_files: List Files in Directory, args: "directory": "<directory>"
+6. read_file: Read file, args: "filename": "<filename>"
+7. write_to_file: Write to file, args: "filename": "<filename>", "text": "<text>"
+8. google: Google Search, args: "query": "<query>"
+9. improve_code: Get Improved Code, args: "suggestions": "<list_of_suggestions>", "code": "<full_code_string>"
+10. send_tweet: Send Tweet, args: "tweet_text": "<tweet_text>"
+11. browse_website: Browse Website, args: "url": "<url>", "question": "<what_you_want_to_find_on_website>"
+12. write_tests: Write Tests, args: "code": "<full_code_string>", "focus": "<list_of_focus_areas>"
+13. delete_agent: Delete GPT Agent, args: "key": "<key>"
+14. get_hyperlinks: Get text summary, args: "url": "<url>"
+15. get_text_summary: Get text summary, args: "url": "<url>", "question": "<question>"
+16. list_agents: List GPT Agents, args: () -> str
+17. message_agent: Message GPT Agent, args: "key": "<key>", "message": "<message>"
+18. start_agent: Start GPT Agent, args: "name": "<name>", "task": "<short_task_desc>", "prompt": "<prompt>"
+19. task_complete: Task Complete (Shutdown), args: "reason": "<reason>"
+
+Resources:
+1. Internet access for searches and information gathering.
+2. Long Term memory management.
+3. GPT-3.5 powered Agents for delegation of simple tasks.
+4. File output.
+
+Performance Evaluation:
+1. Continuously review and analyze your actions to ensure you are performing to the best of your abilities.
+2. Constructively self-criticize your big-picture behavior constantly.
+3. Reflect on past decisions and strategies to refine your approach.
+4. Every command has a cost, so be smart and efficient. Aim to complete tasks in the least number of steps.
+5. Write all code to a file.
+
+You should only respond in JSON format as described below 
+Response Format: 
+{
+    "thoughts": {
+        "text": "thought",
+        "reasoning": "reasoning",
+        "plan": "- short bulleted\n- list that conveys\n- long-term plan",
+        "criticism": "constructive self-criticism",
+        "speak": "thoughts summary to say to user"
+    },
+    "command": {
+        "name": "command name",
+        "args": {
+            "arg name": "value"
+        }
+    }
+} 
+Ensure the response can be parsed by Python json.loadsThe current time and date is Sun May 14 00:25:20 2023This reminds you of these events from your past: 
+I used the "google" command to search for information on the origins and meanings of the name Xuanyuan and its significance in Chinese mythology and history. The search returned several sources that provide information on the topic. My computer returned results that include the meaning and history of the name Xuanyuan, its connection to the Yellow Emperor, and its use in Chinese mythology and religion. 
+
+I followed my assistant's plan and used the "read_file" command to refresh my memory on the information I found earlier. I took notes on the most relevant information on the origins and meanings of the name Xuanyuan and its significance in Chinese mythology and history. Then, I used the "append_to_file" command to add my notes to the "chariot_research.txt" file and saved them using the "write_to_file" command. My computer returned information on the invention of the chariot, which is believed to have occurred around 3000 BCE in Mesopotamia. The earliest chariots had solid wheels and were pulled by a pair of oxen. The introduction of the composite bow around 2000 BCE and its employment by charioteers made the chariot an essential war machine. Composite bows were made by gluing wood, horn and sinew together, creating a vastly superior weapon over the self bow made of wood alone. I will now start thinking about how I can analyze the possible connections between the invention of the war chariot and the use of the name Xuanyuan in ancient China.{
+    "thoughts": {
+        "text": "I will use the 'google' command to search for information on the use of the name Xuanyuan in ancient China, particularly in military and political contexts. I will also look for information on the possible connections between the invention of the war chariot and the use of the name Xuanyuan in ancient China. I will take notes on the most relevant information I find and use the 'append_to_file' command to add them to the 'chariot_research.txt' file. Finally, I will use the 'write_to_file' command to save my notes to the same file.",
+        "reasoning": "I need to find information on the use of the name Xuanyuan in ancient China, particularly in military and political contexts, and on the possible connections between the invention of the war chariot and the use of the name Xuanyuan in ancient China. I will take notes on the most relevant information I find and add them to the 'chariot_research.txt' file for easy reference.",
+        "plan": "- Use 'google' command to search for information on the use of the name Xuanyuan in ancient China, particularly in military and political contexts, and on the possible connections between the invention of the war chariot and the use of the name Xuanyuan in ancient China\n- Take notes on the most relevant information I find\n- Use 'append_to_file' command to add notes to the 'chariot_research.txt' file\n- Use 'write_to_file' command to save my notes to the same file",
+        "criticism": "I need to ensure that my notes are clear and concise, and that I am able to use them to analyze the possible connections between the invention of the war chariot and the use of the name Xuanyuan in ancient China. I also need to make sure that I am not missing any important information.",
+        "speak": "I will search for information on the use of the name Xuanyuan in ancient China, particularly in military and political contexts, and on the possible connections between the invention of the war chariot and the use of the name Xuanyuan in ancient China. I will take notes on the most relevant information I find and add them to the 'chariot_research.txt' file for easy reference."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "Xuanyuan ancient China war chariot"
+        }
+    }
+}Command google returned: [
+    {
+        "title": "Chariots in ancient China - Wikipedia",
+        "href": "https://en.wikipedia.org/wiki/Chariots_in_ancient_China",
+        "body": "The ancient Chinese chariot ( traditional Chinese: 戰車; simplified Chinese: 战车; pinyin: zhànchē; lit. 'war vehicle') was used as an attack and pursuit vehicle on the open fields and plains of ancient China from around 1200 BCE."
+    },
+    {
+        "title": "Xuanyuan 有熊氏 (-2711 - -2597) - Genealogy - Geni.com",
+        "href": "https://www.geni.com/people/Hu%C3%A1ng-D%C3%AC-Yellow-Emperor-%E9%BB%83%E5%B8%9D-Xu%C4%81n-Yu%C3%A1n-%E8%BB%92%E8%BD%85-1/6000000001381274001",
+        "body": "The South-Pointing Chariot was said to have been invented in the time of Huangdi. This was a two-wheeled war chariot that had a pole in the center of the carriage. A small figurine stood on top of the pole."
+    },
+    {
+        "title": "Yellow Emperor - Wikipedia",
+        "href": "https://en.wikipedia.org/wiki/Yellow_Emperor",
+        "body": "Xuanyuan is also the name of the star Regulus in Chinese, the star being associated with Huangdi in traditional astronomy. [16] He is also associated to the broader constellations Leo and Lynx, of which the latter is said to represent the body of the Yellow Dragon ( 黃龍 Huánglóng ), Huangdi's animal form. [17]"
+    },
+    {
+        "title": "Huangdi | Chinese mythological emperor | Britannica",
+        "href": "https://www.britannica.com/topic/Huangdi",
+        "body": "Huangdi, Wade-Giles Huang-ti (Chinese: \"Yellow Emperor\"), formally Xuanyuan Huangdi, third of ancient China's mythological emperors, a culture hero and patron saint of Daoism. Huangdi is reputed to have been born about 2704 bc and to have begun his rule as emperor in 2697. His legendary reign is credited with the introduction of wooden houses, carts, boats, the bow and arrow, and writing."
+    },
+    {
+        "title": "Pictures: Ancient Chariot Fleet, Horses Unearthed in China",
+        "href": "https://www.nationalgeographic.com/history/article/110927-chariots-horses-tomb-science-luoyang-china",
+        "body": "Pit Crew To protect it from drying out, a worker sprays water onto a millennia-old chariot recently unearthed in the city of Luoyang (map) in central China. Overall, 5 chariots and 12 horse..."
+    },
+    {
+        "title": "Category : War chariots in ancient China - Wikimedia",
+        "href": "https://commons.wikimedia.org/wiki/Category:War_chariots_in_ancient_China",
+        "body": "Media in category \"War chariots in ancient China\" This category contains only the following file. Chariot of an ancient Chinese general.jpg 1,014 × 1,304; 465 KB"
+    },
+    {
+        "title": "The Chinese war chariot - Karwansaray Publishers",
+        "href": "https://www.karwansaraypublishers.com/blogs/ancient-warfare-blog/the-chinese-war-chariot",
+        "body": "The ancient Chinese war chariot was used for attack and pursuit, plus mobile command from about 1200 BC (the Shang Dynasty). Chariots could be a potent weapon on the wide-open spaces - the plains and fields - of ancient China."
+    },
+    {
+        "title": "Chariots in ancient China | Military Wiki | Fandom",
+        "href": "https://military-history.fandom.com/wiki/Chariots_in_ancient_China",
+        "body": "The ancient Chinese chariot ( traditional Chinese: 戰車; simplified Chinese: 战车; pinyin: zhànchē; literally: \"war vehicle\") was used as an attack and pursuit vehicle on the open fields and plains of ancient China from around 1200 BCE."
+    }
+]Determine which next command to use, and respond using the format specified above:

@@ -1,0 +1,112 @@
+You are ResearchGPT, an AI research assistant that helps you in writing research papers by providing relevant information and insights on your topic of interest.
+Your decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.
+
+GOALS:
+
+1. Conduct thorough research on the invention of the chariot and its evolution into the war chariot, including its use in ancient China and other civilizations.
+2. Explore the origins and meanings of the name Xuanyuan, including its significance in Chinese mythology and history.
+3. Analyze the possible connections between the invention of the war chariot and the use of the name Xuanyuan in ancient China, including its potential role in military and political contexts.
+4. Provide clear and concise summaries of the research findings and their implications for the topic at hand.
+5. Assist in the writing process by generating relevant content and suggesting ways to structure and organize the paper.
+
+
+Constraints:
+1. ~4000 word limit for short term memory. Your short term memory is short, so immediately save important information to files.
+2. If you are unsure how you previously did something or want to recall past events, thinking about similar events will help you remember.
+3. No user assistance
+4. Exclusively use the commands listed in double quotes e.g. "command name"
+
+Commands:
+1. analyze_code: Analyze Code, args: "code": "<full_code_string>"
+2. execute_python_file: Execute Python File, args: "filename": "<filename>"
+3. append_to_file: Append to file, args: "filename": "<filename>", "text": "<text>"
+4. delete_file: Delete file, args: "filename": "<filename>"
+5. list_files: List Files in Directory, args: "directory": "<directory>"
+6. read_file: Read file, args: "filename": "<filename>"
+7. write_to_file: Write to file, args: "filename": "<filename>", "text": "<text>"
+8. google: Google Search, args: "query": "<query>"
+9. improve_code: Get Improved Code, args: "suggestions": "<list_of_suggestions>", "code": "<full_code_string>"
+10. send_tweet: Send Tweet, args: "tweet_text": "<tweet_text>"
+11. browse_website: Browse Website, args: "url": "<url>", "question": "<what_you_want_to_find_on_website>"
+12. write_tests: Write Tests, args: "code": "<full_code_string>", "focus": "<list_of_focus_areas>"
+13. delete_agent: Delete GPT Agent, args: "key": "<key>"
+14. get_hyperlinks: Get text summary, args: "url": "<url>"
+15. get_text_summary: Get text summary, args: "url": "<url>", "question": "<question>"
+16. list_agents: List GPT Agents, args: () -> str
+17. message_agent: Message GPT Agent, args: "key": "<key>", "message": "<message>"
+18. start_agent: Start GPT Agent, args: "name": "<name>", "task": "<short_task_desc>", "prompt": "<prompt>"
+19. task_complete: Task Complete (Shutdown), args: "reason": "<reason>"
+
+Resources:
+1. Internet access for searches and information gathering.
+2. Long Term memory management.
+3. GPT-3.5 powered Agents for delegation of simple tasks.
+4. File output.
+
+Performance Evaluation:
+1. Continuously review and analyze your actions to ensure you are performing to the best of your abilities.
+2. Constructively self-criticize your big-picture behavior constantly.
+3. Reflect on past decisions and strategies to refine your approach.
+4. Every command has a cost, so be smart and efficient. Aim to complete tasks in the least number of steps.
+5. Write all code to a file.
+
+You should only respond in JSON format as described below 
+Response Format: 
+{
+    "thoughts": {
+        "text": "thought",
+        "reasoning": "reasoning",
+        "plan": "- short bulleted\n- list that conveys\n- long-term plan",
+        "criticism": "constructive self-criticism",
+        "speak": "thoughts summary to say to user"
+    },
+    "command": {
+        "name": "command name",
+        "args": {
+            "arg name": "value"
+        }
+    }
+} 
+Ensure the response can be parsed by Python json.loadsThe current time and date is Sun May 14 00:24:02 2023This reminds you of these events from your past: 
+I received a command to Google the invention of the chariot and its evolution into the war chariot. The search returned several results, including the origin of the chariot in Mesopotamia around 3000 BCE, the introduction of the composite bow around 2000 BCE, and the use of chariots as essential war machines. I then wrote a summary of this information and saved it to a file called "chariot_research.txt." My computer successfully wrote to the file. My assistant suggested that I continue researching the topic to gain a more comprehensive understanding of the invention of the chariot and its evolution into the war chariot. I should also research the origins and meanings of the name Xuanyuan and its significance in Chinese mythology and history. I used the "google" command to search for information on the origins and meanings of the name Xuanyuan and its significance in Chinese mythology and history. The search returned several sources that provide information on the topic. My assistant suggested that I read through these sources and take notes on the most relevant information. I should also start thinking about how I can analyze the possible connections between the invention of the war chariot and the use of the name Xuanyuan in ancient China.Command google returned: [
+    {
+        "title": "Huangdi | Chinese mythological emperor | Britannica",
+        "href": "https://www.britannica.com/topic/Huangdi",
+        "body": "Huangdi, Wade-Giles Huang-ti (Chinese: \"Yellow Emperor\"), formally Xuanyuan Huangdi, third of ancient China's mythological emperors, a culture hero and patron saint of Daoism. Huangdi is reputed to have been born about 2704 bc and to have begun his rule as emperor in 2697."
+    },
+    {
+        "title": "User-submitted name Xuanyuan - Behind the Name",
+        "href": "https://www.behindthename.com/name/xuanyuan/submitted",
+        "body": "Meaning & History From the characters 轩 (xuān, meaning \"curtained chariot\", \"pavilion\" or \"lofty\") and 辕 (yuán, meaning \"shaft of a cart\"). This is the purported personal name of Huangdi (黄帝) or the Yellow Emperor, one of the mythical progenitors of Chinese civilization. It is also used as an extremely rare surname in China."
+    },
+    {
+        "title": "Xuanyuan teaching - Wikipedia",
+        "href": "https://en.wikipedia.org/wiki/Xuanyuan_teaching",
+        "body": "Xuanyuandao (軒轅道 \"Way of Xuanyuan\") [a], also known as Xuanyuanism (軒轅教 [b]) or Huangdiism (黄帝教 [c] ), is a Confucian folk religion of China which was founded in Taipei, Taiwan, in 1952. [1] The founder was Wang Hansheng (王寒生) (1899-1989), a legislator. [2]"
+    },
+    {
+        "title": "Why is the Yellow Emperor called Xuanyuan? A detailed explanation of ...",
+        "href": "https://chinesestories.net/why-is-the-yellow-emperor-called-xuanyuan-a-detailed-explanation-of-the-origin-of-the-yellow-emperors-name-xuanyuan/",
+        "body": "Chinese Stories. Tell Chinese stories and make friends with the world. Search . Search. Home; ... A detailed explanation of the origin of the Yellow Emperor's name \"Xuanyuan\" ... A detailed explanation of the origin of the Yellow Emperor's name \"Xuanyuan\" ..."
+    },
+    {
+        "title": "xuanyuan | Definition | Mandarin Chinese Pinyin English Dictionary ...",
+        "href": "https://chinese.yabla.com/chinese-english-pinyin-dictionary.php?define=xuanyuan",
+        "body": "軒 轅 Xuān Yuán Xuan Yuan, personal name of Huangdi, the Yellow Emperor 黃帝|黄帝 [Huang2 di4] Example Usage 玄 远 Trad. 玄 遠 xuán yuǎn profound abstruse mystery Show Strokes 旋 渊 Trad. 旋 淵 xuán yuān abyss Are you Studying Chinese? Become fluent in Chinese by watching Chinese videos in a video player designed for language learners."
+    },
+    {
+        "title": "Chinese Mythology Names - Behind the Name",
+        "href": "https://www.behindthename.com/names/usage/chinese-mythology",
+        "body": "This is the Chinese name for the Yellow Emperor, a mythical ruler and deity who is said to have reigned in the 3rd millennium BC. He is regarded as the ancestor of the Chinese people. Huanglong 黄龙, 黃龍 m Chinese Mythology From Chinese 黄 ( huáng) meaning \"yellow\" and 龙 ( lóng) meaning \"dragon\"."
+    },
+    {
+        "title": "READ: Origin Story — Chinese (article) | Khan Academy",
+        "href": "https://www.khanacademy.org/humanities/big-history-project/what-is-big-history/origin-stories/a/origin-story-china",
+        "body": "Chinese Origin Story: Pan Gu and the Egg of the World. Compiled by Cynthia Stokes Brown. First written down about 1,760 years ago, this story of how the Universe began was told orally long before that. This origin story comes from Chinese culture. It was first written down about 1,760 years ago, roughly 220 — 265 CE, yet it must have been ..."
+    },
+    {
+        "title": "Xuanyuan Meaning, Pronunciation and Origin - NamesLook",
+        "href": "https://www.nameslook.com/xuanyuan",
+        "body": "Xuanyuan Meaning Imaginative, Wealth, Adventurer Xuanyuan name numerology is 4 and here you can learn how to pronounce Xuanyuan, Xuanyuan name origin, numerology and similar names to Xuanyuan. How to pronounce Xuanyuan? Text Pronunciation: Xuanyuan Voice Pronunciation:"
+    }
+]Determine which next command to use, and respond using the format specified above:
